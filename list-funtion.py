@@ -1,5 +1,5 @@
 #LIST FUNCTION AND ITS COMMON METHODS:
-
+#Try all this code on your IDE. Copy, Paste and Run
 
 #***LIST.APPEND(OBJECT)***
 list1 = ['Hermione', 'David', 'Cherry']
