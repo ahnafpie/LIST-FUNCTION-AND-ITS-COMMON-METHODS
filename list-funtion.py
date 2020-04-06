@@ -57,9 +57,34 @@ print(list7[3:])
 #result: ['Eshan', 'Estes', 'Rojin']
 
 
-#***List Item Slicing
+#***List Item Slicing with negetive indexing
+print(list7[:-1])
+#result: ['Hermione', 'David', 'Cherry', 'Eshan', 'Estes']
+print(list7[-3:-1])
+#result: ['Eshan', 'Estes']
+print(list7[-3:])
+#result: ['Eshan', 'Estes', 'Rojin']
 
 
+#***Accessing Char and slices in strings***
+string1 = 'hello'
+print(string1[1])
+#result: e
+string1 = 'hello'
+print(string1[-5])
+#result: h
+##Chain Indexing
+list8 = ['hello', 2, 3, 5]
+print(list8[0][-5])
+#result: h
+
+
+#***Accessing items in dictionaries***
+dic = {'K': 4, 'h': 5, 'l': 6}
+print(dic.keys())
+#result: dict_keys(['K', 'h', 'l'])
+print(dic['h'])
+#result: 5
 
 
 
