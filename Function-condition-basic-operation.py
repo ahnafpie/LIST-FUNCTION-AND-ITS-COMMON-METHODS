@@ -60,7 +60,7 @@ elif b > a:
 else:
     print("a is equal to b")
 
-'''result squally:
+'''result sequentially:
  4.5
 4.5
 5.0
